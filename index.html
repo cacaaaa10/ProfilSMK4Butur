@@ -7,118 +7,54 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="container">
-            <div class="logo-container">
-                <img src="images/logo-sekolah.png" alt="Logo SMK 4 Buton Utara" class="logo-img" onerror="this.src='https://via.placeholder.com/50x50?text=Logo'">
-                <span class="logo-text">SMK 4 Buton Utara</span>
-            </div>
-            <ul class="nav-menu">
-                <li><a href="index.html" class="active">Beranda</a></li>
-                <li><a href="tentang.html">Tentang</a></li>
-                <li><a href="visi-misi.html">Visi & Misi</a></li>
-                <li><a href="kejuruan.html">Kejuruan</a></li>
-                <li><a href="lokasi.html">Lokasi</a></li>
-                <li><a href="kontak.html">Kontak</a></li>
-            </ul>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </nav>
 
-    <!-- Jumbotron dengan Gambar -->
-    <header class="jumbotron">
-        <div class="jumbotron-overlay"></div>
-        <div class="jumbotron-content">
-            <h1>SMK 4 Buton Utara</h1>
-            <p>Mencetak Generasi Unggul, Berkarakter, dan Siap Kerja</p>
-            <a href="tentang.html" class="btn btn-primary">Pelajari Lebih Lanjut</a>
+    <header>
+        <div class="container">
+            <h1>SMK Negeri 4 Buton Utara</h1>
+            <p>Kompeten, Berkarakter, Siap Kerja</p>
         </div>
     </header>
 
-    <!-- Section Slider / Silete -->
-    <section class="slider-section">
+    <nav>
         <div class="container">
-            <h2 class="section-title">Keunggulan Sekolah Kami</h2>
-            <div class="slider-container">
-                <div class="slider">
-                    <div class="slide active">
-                        <h3>Pendidikan Berkualitas</h3>
-                        <p>Kurikulum berbasis industri dan teknologi terkini</p>
-                    </div>
-                    <div class="slide">
-                        <h3>Guru Profesional</h3>
-                        <p>Tenaga pengajar berpengalaman di bidangnya</p>
-                    </div>
-                    <div class="slide">
-                        <h3>Fasilitas Lengkap</h3>
-                        <p>Laboratorium dan workshop modern</p>
-                    </div>
-                    <div class="slide">
-                        <h3>Kerjasama Industri</h3>
-                        <p>Link and match dengan dunia usaha dan industri</p>
-                    </div>
-                </div>
-                <button class="slider-btn prev">❮</button>
-                <button class="slider-btn next">❯</button>
-            </div>
-            <div class="slider-dots"></div>
+            <ul>
+                <li><a href="index.html" class="active">Beranda</a></li>
+                <li><a href="jurusan.html">Jurusan</a></li>
+                <li><a href="visimisi.html">Visi & Misi</a></li>
+                <li><a href="tentang.html">Tentang</a></li>
+            </ul>
         </div>
-    </section>
+    </nav>
 
-    <!-- Preview Jurusan -->
-    <section class="jurusan-preview">
+    <main>
         <div class="container">
-            <h2 class="section-title">Kompetensi Keahlian</h2>
-            <div class="jurusan-grid">
-                <div class="jurusan-card">
-                    <h3>TITL</h3>
-                    <p>Teknik Instalasi Tenaga Listrik - Mempelajari instalasi listrik rumah tangga dan industri</p>
+            <section class="hero">
+                <h2>Selamat Datang di SMK 4 Buton Utara</h2>
+                <p>Pusat pendidikan vokasi unggul di Kabupaten Buton Utara, Sulawesi Tenggara.</p>
+                <button id="infoBtn" class="btn">Info Lebih Lanjut</button>
+            </section>
+
+            <section class="jurusan-ringkasan">
+                <h3>Program Keahlian Kami</h3>
+                <div class="jurusan-grid">
+                    <div class="kartu-jurusan">TITL<br><small>Teknik Instalasi Tenaga Listrik</small></div>
+                    <div class="kartu-jurusan">AKT<br><small>Akuntansi</small></div>
+                    <div class="kartu-jurusan">TKP<br><small>Teknik Konstruksi Properti</small></div>
+                    <div class="kartu-jurusan">TKJ<br><small>Teknik Komputer Jaringan</small></div>
                 </div>
-                <div class="jurusan-card">
-                    <h3>TKP</h3>
-                    <p>Teknik Konstruksi Properti - Mempelajari konstruksi bangunan dan properti</p>
-                </div>
-                <div class="jurusan-card">
-                    <h3>Akuntansi</h3>
-                    <p>Mempelajari pencatatan keuangan, akuntansi perusahaan jasa dan dagang</p>
-                </div>
-                <div class="jurusan-card">
-                    <h3>TKJ</h3>
-                    <p>Teknik Komputer dan Jaringan - Mempelajari perakitan komputer dan jaringan</p>
-                </div>
-            </div>
-            <div class="text-center">
-                <a href="kejuruan.html" class="btn btn-secondary">Lihat Detail Jurusan</a>
-            </div>
+            </section>
+
+            <section class="berita-terkini">
+                <h3>Berita Terkini</h3>
+                <p><strong>Penerimaan Peserta Didik Baru 2026/2027</strong> - Telah dibuka pendaftaran online sejak 1 Mei 2026.</p>
+                <p><strong>Workshop Kesiapan Kerja</strong> - Bekerja sama dengan Dunia Industri, 20-22 Mei 2026.</p>
+            </section>
         </div>
-    </section>
+    </main>
 
     <footer>
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h4>SMK 4 Buton Utara</h4>
-                    <p>Sekolah Menengah Kejuruan Terdepan di Buton Utara</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Kontak Kami</h4>
-                    <p>📞 +62 123 4567 890</p>
-                    <p>✉️ info@smk4butonutara.sch.id</p>
-                    <p>📍 Jl. Pendidikan No. 123, Buton Utara</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Ikuti Kami</h4>
-                    <p>📱 Instagram: @smk4butonutara</p>
-                    <p>💬 Facebook: SMK 4 Buton Utara</p>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2024 SMK 4 Buton Utara. All Rights Reserved.</p>
-            </div>
+            <p>&copy; 2026 SMK Negeri 4 Buton Utara | Jl. Pendidikan No. 17, Kec. Bonegunu, Kab. Buton Utara, Sulawesi Tenggara</p>
         </div>
     </footer>
 
